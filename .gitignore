@@ -1,5 +1,4 @@
 .stack-work/
 tds.cabal
-mssql-simple.cabal
 stack.yaml.lock
 *~
