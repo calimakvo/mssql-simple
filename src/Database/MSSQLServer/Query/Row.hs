@@ -32,7 +32,7 @@ instance (Data a) => Row (Only a) where
   fromListOfRawBytes _ _ = error "fromListOfRawBytes: List length must be 1"
 
 -- [MEMO] using Template Haskell
-forM [2..30] $ \n -> do
+forM [2..60] $ \n -> do
   dec <- rowTupleQ n
 --  runIO $ putStrLn $ pprint dec
   return dec
